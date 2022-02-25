@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Contact</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="contact.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="Logo mathieu xavier.png" class="logo" alt="logo">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About me.html">About me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="block">
+    <div class="gauche">
+      <p class="mail">
+        <img src="email(2).png" alt="icone">
+        mathieuxavier38150@gmail.com
+      </p>
+      <p class="phone">
+        <img src="telephone(1).png" alt="icone">
+        06 03 39 33 28
+      </p>
+    </div>
+    <div class="droite">
+      <div class="container">
+        <h1>Formulaire de contact</h1>
+        <form action="/action_page.php">
+          <label for="fname">Nom & prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+
+          <input type="submit" id="submit" value="Envoyer">
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
