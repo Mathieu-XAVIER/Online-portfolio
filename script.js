@@ -16,5 +16,4 @@ window.addEventListener('DOMContentLoaded',(event) =>{
           image.style.display='none';
       }
   })
-  
 });

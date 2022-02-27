@@ -7,7 +7,7 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-color: #25283d;
+	background-color: black;
 	background-size: cover;
 	background-position: center;
 }
@@ -111,7 +111,7 @@ h4{
 }
 .about img{
 	height: auto;
-	width: 430px;
+	width: auto;
 }
 .about-text{
 	width: 550px;
@@ -143,6 +143,21 @@ h4{
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
+}
+#link{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+#link:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
 }
 button{
 	background-color:#f9004d;
@@ -329,23 +344,4 @@ footer p:nth-child(2){
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
-}
-
-.splide {
-    text-align: center;
-    width: 40%;
-}
-
-.splide__slide {
-    text-align: center;
-}
-
-.splide img {
-    width: 100px;
-    height: 100px;
-}
-
-#splide01 {
-    width: 800px;
-    margin: auto;
 }
