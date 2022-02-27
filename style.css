@@ -345,3 +345,13 @@ footer p:nth-child(2){
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
 }
+#projects{
+	display:block;
+	text-align: center;
+	padding-top: 10px;
+}
+#projects img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}

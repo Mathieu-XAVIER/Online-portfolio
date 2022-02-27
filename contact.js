@@ -2,6 +2,13 @@ window.addEventListener('DOMContentLoaded',(event) =>{
 
 
 /* FORMULAIRE */
+let merci = document.getElementById('message');
+let bouton = document.getElementById('submit');
+
+bouton.addEventListener('click',function(){
+  merci.style.display='block';
+});
+
 
 
   /* Canvas snow */

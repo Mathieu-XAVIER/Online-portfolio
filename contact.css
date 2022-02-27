@@ -179,3 +179,8 @@ nav ul li a:hover{
 #snow{
     height: 50px;
 }
+
+#message{
+    display:none;
+    color: green;
+}
