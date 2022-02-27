@@ -6,55 +6,80 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Contact</title>
-  <link href="style.css" rel="stylesheet">
+
+  <link href="contact.css" rel="stylesheet">
   <script src="contact.js"></script>
+
+
 </head>
 
 <body>
-  <header>
+  <!----header---->
+  <div class="hero">
     <nav>
-      <img src="Logo mathieu xavier.png" class="logo" alt="logo">
+      <h2 class="logo">Portfo<span>lio</span></h2>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="About me.html">About me</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="skills.html">Skills</a></li>
         <li><a href="Contact.html">Contact</a></li>
       </ul>
+      <a href="#" class="btn">Subscribe</a>
     </nav>
-  </header>
-  <main class="block">
-    <div class="gauche">
-      <p class="mail">
-        <img src="email(2).png" alt="icone">
-        mathieuxavier38150@gmail.com
-      </p>
-      <p class="phone">
-        <img src="telephone(1).png" alt="icone">
-        06 03 39 33 28
-      </p>
-    </div>
-    <div class="droite">
-      <div class="container">
-        <h1>Formulaire de contact</h1>
-        <form action="/action_page.php">
-          <label for="fname">Nom & prénom</label>
-          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
 
-          <label for="sujet">Sujet</label>
-          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+    <!--FORMULAIRE DE CONTACT-->
 
-          <label for="emailAddress">Email</label>
-          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
-
-
-          <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
-
-          <input type="submit" id="submit" value="Envoyer">
-        </form>
+    <section class="contact">
+      <div class="contenu">
+        <h2>Contacte moi</h2>
+        <p>Je suis à votre disposition pour toutes informations supplémentaires ou si vous souhaitez simplement me
+          contacter.</p>
       </div>
-    </div>
-  </main>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Adresse</h3>
+              <p>23 clos Avril, Roussillon, France <br> 38150</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>mathieuxavier38150@gmail.com</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Téléphone</h3>
+              <p>06 03 39 33 28</p>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form>
+            <h2>Send message</h2>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Full name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required="required"></textarea>
+              <span>Tappez votre message</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" value="Send">
+            </div>
+          </form>
+      </div>
+    </section>
 </body>
 
 </html>

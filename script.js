@@ -1,17 +1,20 @@
 window.addEventListener('DOMContentLoaded',(event) =>{
 
-  var splide = new Splide( '.splide', {
-    direction: 'ttb',
-    height   : '600px',
-    wheel    : true,
-  } );
-  
-  splide.mount();
+  /* ABOUT ME */
 
-  let form = document.getElementById('submit');
+  let afficher = document.getElementById('pdp');
+  console.log(afficher)
   
-  form.addEventListener('click', function(){
-    window.alert("Votre message a été envoyer avec succès !")
-    console.log("ca marche")
-  });
+  let image = document.querySelector('img');
+  
+  afficher.addEventListener('click', function(){
+      if (afficher.textContent === "Afficher"){
+          afficher.textContent ="Masquer";
+          image.style.display='block';
+      } else {
+          afficher.textContent = "Afficher";
+          image.style.display='none';
+      }
+  })
+  
 });
